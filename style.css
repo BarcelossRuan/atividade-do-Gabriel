@@ -1,0 +1,17 @@
+body{
+    background-color:rebeccapurple ;
+    font-family: Arial sans-serif;
+    text-align: center ;
+}
+h1{
+    color: chocolate;
+}
+p{
+    font-size: large;
+}
+
+button {
+    background-color: blue;
+    color: blueviolet;
+    padding: 10px;
+}
