@@ -1,9 +1,9 @@
-function revelarMensagem () {
-    document.getElementById("mensagem").innerText = "Olá, você alterou a mensagem chamando uma função JS"
-}
+    function revelarMensagem () {
+        document.getElementById("mensagem").innerText = "Olá, você alterou a mensagem chamando uma função JS"
+    }
 
-function mostrarNome() {
-    let nome = document.getElementById("nomeUsuario").value;
+    function mostrarNome() {
+        let nome = document.getElementById("nomeUsuario").Value;
 
-    document.getElementById("resultadoNome").innerText = "Bem-vindo, " + "!";
-}
+        document.getElementById("resultadoNome").innerText = "Bem-vindo, " + nome + "!"
+    }
